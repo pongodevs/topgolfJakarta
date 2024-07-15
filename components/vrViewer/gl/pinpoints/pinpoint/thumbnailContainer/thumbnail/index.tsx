@@ -48,7 +48,7 @@ const Thumbnail = () => {
     })
     return (  
         <mesh
-            position={[0,0.55,0]}
+            position={[0,0.02,0]}
             geometry={new THREE.CircleGeometry( size, 32 )}
             material={material}
         />

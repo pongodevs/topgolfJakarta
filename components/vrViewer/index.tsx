@@ -170,7 +170,7 @@ const VrViewer = () => {
                 easing
             }}
         >
-            <WindowEvent/>
+            {/* <WindowEvent/> */}
             <View
                 style={{
                     width:`100%`,

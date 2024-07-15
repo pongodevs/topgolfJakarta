@@ -184,6 +184,39 @@ export const touchObject:TouchType = {
     movement: new THREE.Vector2(),
 }
 
+export type InfoType = {
+    _id: string,
+    description: string,
+    images: {
+        containerHeight: number,
+        imageList: ViewListType[]
+    },
+    url: string,
+    position: {
+        x: number,
+        y: number
+    },
+    height: number,
+    width: number,
+    header: string
+}
+export const infoObject:InfoType = {
+    _id: "d70f9dd3-f304-4b7b-82fe-a9f2a5c93350",
+    description: "",
+    images: {
+        containerHeight: 100,
+        imageList: []
+    },
+    url: "",
+    position: {
+        x: 340,
+        y: 220
+    },
+    height: 255,
+    width: 320,
+    header: ""
+}
+
 export type PinpointType = {
     _id:string,
     labelName:string,
@@ -192,6 +225,7 @@ export type PinpointType = {
         y:number,
         z:number
     },
+    info:InfoType,
     redirectUrl:string,
     thumbnailUrl:string,
     toViewId:string,
@@ -206,6 +240,7 @@ export const pinpointObject:PinpointType = {
         y:0,
         z:0
     },
+    info:infoObject,
     redirectUrl:'',
     thumbnailUrl:'',
     toViewId:'',
@@ -307,7 +342,10 @@ export type CustomPinpointType = {
     thumbnailSize:number,
     thumbnailYPosition:number,
     thumbnailXPosition:number,
-    sizePercentage:number
+    sizePercentage:number,
+    opacity:number,
+    fontScale:number,
+    type: 'view' | 'info'
 }
 export const customPinpointObject:CustomPinpointType = {
     _id:'',
@@ -318,7 +356,11 @@ export const customPinpointObject:CustomPinpointType = {
     thumbnailSize:100,
     thumbnailXPosition:0,
     thumbnailYPosition:1,
-    sizePercentage:100
+    sizePercentage:100,
+    opacity:100,
+    fontScale:100,
+    type: 'view',
+
 }
 
 export type InfoPinpointType={
@@ -374,6 +416,7 @@ export type VrProjectType={
     _id:string,
     email:string,
     glbUrl:string,
+    detailedGlbUrl:string,
     projectThumbnail:string,
     dateCreated:number,
     projectName:string,
@@ -472,6 +515,7 @@ export const vrProjectObject:VrProjectType= {
     _id:'',
     email:'',
     glbUrl:'',
+    detailedGlbUrl:'',
     projectThumbnail:'',
     dateCreated:0,
     projectName:'',

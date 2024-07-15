@@ -10,7 +10,7 @@ const Text = () => {
     const {font} = useContext(VrViewerContext)
     const textGeometry = new TextGeometry(pinpoint.labelName, {
         font: font,
-        size: 50000,
+        size: 2500,
         depth: 5,
         curveSegments: 3,
         bevelEnabled: false,

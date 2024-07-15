@@ -1,5 +1,5 @@
 
-                    import { VrProjectType } from "../../types/vrProjectType";
+                    import { infoObject, VrProjectType } from "../../types/vrProjectType";
                     import { Asset } from 'expo-asset';
                 
                     export const projectInfo: VrProjectType = 
@@ -91,7 +91,7 @@
       "sceneName": "Scene 1",
       "viewList": [
         {
-          "labelName": "Entrance.",
+          "labelName": "Entrance",
           "redirectUrl": "",
           "lensflare": {
             "position": {
@@ -168,12 +168,12 @@
             }
           ],
           "imageUrl6000": "",
-          "imageUrl": require("../images/views/entrance..jpg"),
-          "viewName": "Entrance.",
+          "imageUrl": require("../images/views/entrance.jpg"),
+          "viewName": "Entrance",
           "mapId": "0a5c0ad2-35c3-476b-b1c3-a236affc5998",
           "imageUrl4000": "",
           "rotation": -7.7,
-          "thumbnailUrl": require("../images/thumbnails/entrance..jpg"),
+          "thumbnailUrl": require("../images/thumbnails/entrance.jpg"),
           "texture": {
             "metadata": {
               "version": 4.5,
@@ -214,35 +214,6 @@
         },
         {
           "pinpoints": [
-            {
-              "_id": "3172aa3b-618a-4f0c-972c-f4ba987381d4",
-              "thumbnailUrl": require("../images/thumbnails/patio.jpg"),
-              "labelName": "Patio",
-              "info": {
-                "_id": "d70f9dd3-f304-4b7b-82fe-a9f2a5c93350",
-                "description": "",
-                "images": {
-                  "containerHeight": 100,
-                  "imageList": []
-                },
-                "url": "",
-                "position": {
-                  "x": 340,
-                  "y": 220
-                },
-                "height": 255,
-                "width": 320,
-                "header": ""
-              },
-              "toViewId": "0c369557-4dc1-4e07-8a1b-ba256e0820ba",
-              "position": {
-                "y": -7.942654021002119,
-                "z": -174.52310570694766,
-                "x": 133.57533047034252
-              },
-              "redirectUrl": "",
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816"
-            },
             {
               "redirectUrl": "",
               "position": {
@@ -302,35 +273,6 @@
               }
             },
             {
-              "_id": "61c4faa3-2aae-4364-8ed7-24c03353395f",
-              "position": {
-                "x": -166.38135132681015,
-                "z": -143.02213752694198,
-                "y": -15.265604658272222
-              },
-              "redirectUrl": "",
-              "thumbnailUrl": require("../images/thumbnails/hitting_bay_-_1.jpg"),
-              "labelName": "Hitting Bay - 1",
-              "toViewId": "ac67b311-9ab4-4ddc-89c8-a38c5f7392c5",
-              "info": {
-                "width": 320,
-                "height": 255,
-                "header": "",
-                "url": "",
-                "_id": "2b476b62-e64e-401d-be94-5529c20a0658",
-                "images": {
-                  "containerHeight": 100,
-                  "imageList": []
-                },
-                "description": "",
-                "position": {
-                  "y": 220,
-                  "x": 340
-                }
-              },
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816"
-            },
-            {
               "labelName": "Hitting Bay - 1",
               "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
               "info": {
@@ -358,35 +300,6 @@
               },
               "thumbnailUrl": require("../images/thumbnails/hitting_bay_-_1.jpg"),
               "redirectUrl": ""
-            },
-            {
-              "redirectUrl": "",
-              "info": {
-                "height": 255,
-                "position": {
-                  "y": 220,
-                  "x": 340
-                },
-                "description": "",
-                "_id": "ddf91cb3-c467-4948-9299-e2ed6122ed5f",
-                "header": "",
-                "width": 320,
-                "url": "",
-                "images": {
-                  "imageList": [],
-                  "containerHeight": 100
-                }
-              },
-              "toViewId": "7d5e2540-798a-44ac-b862-13727abf5f31",
-              "_id": "35948fb8-5f76-4657-b6d2-0a530d7b01e2",
-              "position": {
-                "y": -24.858863679714645,
-                "z": 200.45253007826273,
-                "x": 87.07251846986992
-              },
-              "labelName": "Sports Bar - 2",
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "thumbnailUrl": require("../images/thumbnails/sports_bar_-_2.jpg")
             },
             {
               "labelName": "Sports Bar - 2",
@@ -418,7 +331,7 @@
               "toViewId": "7d5e2540-798a-44ac-b862-13727abf5f31"
             },
             {
-              "labelName": "Entrance.",
+              "labelName": "Entrance",
               "info": {
                 "header": "",
                 "position": {
@@ -435,7 +348,7 @@
                 "_id": "fc6351ee-8236-4436-a85a-d2abf8bc57ff",
                 "url": ""
               },
-              "thumbnailUrl": require("../images/thumbnails/entrance..jpg"),
+              "thumbnailUrl": require("../images/thumbnails/entrance.jpg"),
               "toViewId": "5db7854f-4896-49d2-a905-7dacb5591a70",
               "position": {
                 "x": 164.72132387790617,
@@ -540,14 +453,14 @@
               "labelName": "Hitting Bay - 1"
             },
             {
-              "labelName": "Entrance.",
+              "labelName": "Entrance",
               "redirectUrl": "",
               "position": {
                 "y": -2.075235938270931,
                 "x": 117.28563006401725,
                 "z": 186.04176634777767
               },
-              "thumbnailUrl": require("../images/thumbnails/entrance..jpg"),
+              "thumbnailUrl": require("../images/thumbnails/entrance.jpg"),
               "toViewId": "5db7854f-4896-49d2-a905-7dacb5591a70",
               "_id": "38a87500-44d0-4207-82c2-672fa26bd83a",
               "info": {
@@ -748,35 +661,7 @@
               "thumbnailUrl": require("../images/thumbnails/main_lobby.jpg"),
               "_id": "c5b9cedd-fb49-484f-b5ae-e8ca56b15e43"
             },
-            {
-              "info": {
-                "header": "",
-                "description": "",
-                "_id": "f89f8a59-9016-4389-ba1b-1f174b13864a",
-                "width": 320,
-                "position": {
-                  "y": 220,
-                  "x": 340
-                },
-                "images": {
-                  "containerHeight": 100,
-                  "imageList": []
-                },
-                "height": 255,
-                "url": ""
-              },
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "thumbnailUrl": require("../images/thumbnails/hitting_bay_-_1.jpg"),
-              "labelName": "Hitting Bay - 1",
-              "_id": "c5881f4f-f726-4d55-8944-ee85f57bb588",
-              "position": {
-                "y": -6.539319967427524,
-                "x": 37.96436619193544,
-                "z": -216.53419530024266
-              },
-              "toViewId": "ac67b311-9ab4-4ddc-89c8-a38c5f7392c5",
-              "redirectUrl": ""
-            },
+    
             {
               "thumbnailUrl": require("../images/thumbnails/hitting_bay_-_1.jpg"),
               "position": {
@@ -930,13 +815,13 @@
               "redirectUrl": ""
             },
             {
-              "labelName": "Entrance.",
+              "labelName": "Entrance",
               "position": {
                 "x": -175.0779323137521,
                 "z": 132.89559016050833,
                 "y": -7.141105502321885
               },
-              "thumbnailUrl": require("../images/thumbnails/entrance..jpg"),
+              "thumbnailUrl": require("../images/thumbnails/entrance.jpg"),
               "redirectUrl": "",
               "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
               "toViewId": "5db7854f-4896-49d2-a905-7dacb5591a70",
@@ -1031,35 +916,6 @@
               "redirectUrl": ""
             },
             {
-              "labelName": "Sports Bar - 2",
-              "_id": "b2564a44-d565-44ac-94bc-afd06528cea7",
-              "thumbnailUrl": require("../images/thumbnails/sports_bar_-_2.jpg"),
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "toViewId": "7d5e2540-798a-44ac-b862-13727abf5f31",
-              "info": {
-                "height": 255,
-                "position": {
-                  "x": 340,
-                  "y": 220
-                },
-                "description": "",
-                "width": 320,
-                "url": "",
-                "_id": "eee59d17-ca54-4212-ae2b-6a8c3a797305",
-                "header": "",
-                "images": {
-                  "imageList": [],
-                  "containerHeight": 100
-                }
-              },
-              "redirectUrl": "",
-              "position": {
-                "y": -17.96399248841948,
-                "z": -93.41113603632712,
-                "x": -198.28377121235778
-              }
-            },
-            {
               "labelName": "Main Lobby",
               "redirectUrl": "",
               "_id": "7a98e0a3-5dee-4864-9f81-2d81e0a7a6b1",
@@ -1150,35 +1006,6 @@
           },
           "imageUrl": require("../images/views/hitting_bay_-_1.jpg"),
           "pinpoints": [
-            {
-              "_id": "304ff1eb-a0d7-4b1e-91ff-3efd84b83e18",
-              "info": {
-                "header": "",
-                "height": 255,
-                "description": "",
-                "width": 320,
-                "images": {
-                  "imageList": [],
-                  "containerHeight": 100
-                },
-                "position": {
-                  "x": 340,
-                  "y": 220
-                },
-                "_id": "fe27ef68-32e6-4a89-b6f7-d49b468384bf",
-                "url": ""
-              },
-              "labelName": "Main Lobby",
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "toViewId": "8de96441-1f3c-46d5-81f8-63692e394fd7",
-              "position": {
-                "y": -16.777036306955175,
-                "x": 131.01579628299305,
-                "z": 175.84853686424398
-              },
-              "thumbnailUrl": require("../images/thumbnails/main_lobby.jpg"),
-              "redirectUrl": ""
-            },
             {
               "position": {
                 "x": 131.01579628299305,
@@ -1536,35 +1363,6 @@
               "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816"
             },
             {
-              "thumbnailUrl": require("../images/thumbnails/outfield.jpg"),
-              "info": {
-                "width": 320,
-                "height": 255,
-                "header": "",
-                "images": {
-                  "imageList": [],
-                  "containerHeight": 100
-                },
-                "description": "",
-                "position": {
-                  "y": 220,
-                  "x": 340
-                },
-                "_id": "3d39a010-ceeb-418c-b9cd-71f3a9851e65",
-                "url": ""
-              },
-              "toViewId": "57c71c8d-e5a1-4dc7-b544-6165bdd5b4b8",
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "labelName": "Outfield",
-              "position": {
-                "y": -9.4983348720555,
-                "z": -217.5081886838438,
-                "x": -31.481151832966702
-              },
-              "redirectUrl": "",
-              "_id": "65be32a1-2b62-4ae4-a0c8-2d650784a275"
-            },
-            {
               "toViewId": "f4821786-d554-4bf2-8e3e-7d2ddfe69e7f",
               "thumbnailUrl": require("../images/thumbnails/hitting_bay_-_2.jpg"),
               "info": {
@@ -1592,35 +1390,6 @@
                 "y": -12.783949183311861
               },
               "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816"
-            },
-            {
-              "thumbnailUrl": require("../images/thumbnails/hitting_bay_-_2.jpg"),
-              "redirectUrl": "",
-              "_id": "421443e4-9734-4fd4-9082-363297241bdd",
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "info": {
-                "height": 255,
-                "_id": "6f8d4ec2-2f3d-4a87-bd74-ee0fcda186e3",
-                "description": "",
-                "width": 320,
-                "header": "",
-                "position": {
-                  "x": 340,
-                  "y": 220
-                },
-                "images": {
-                  "imageList": [],
-                  "containerHeight": 100
-                },
-                "url": ""
-              },
-              "toViewId": "f4821786-d554-4bf2-8e3e-7d2ddfe69e7f",
-              "position": {
-                "y": -12.783949183311861,
-                "x": 198.11315639227533,
-                "z": -94.70132602889677
-              },
-              "labelName": "Hitting Bay - 2"
             },
             {
               "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
@@ -1887,35 +1656,6 @@
             },
             {
               "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "thumbnailUrl": require("../images/thumbnails/outfield.jpg"),
-              "redirectUrl": "",
-              "_id": "d967873b-07fb-45ed-a33a-f7c273f3c7f6",
-              "labelName": "Outfield",
-              "info": {
-                "width": 320,
-                "header": "",
-                "height": 255,
-                "position": {
-                  "y": 220,
-                  "x": 340
-                },
-                "description": "",
-                "url": "",
-                "images": {
-                  "imageList": [],
-                  "containerHeight": 100
-                },
-                "_id": "c506f3d7-4a80-4975-b76a-13ee6dc33820"
-              },
-              "toViewId": "57c71c8d-e5a1-4dc7-b544-6165bdd5b4b8",
-              "position": {
-                "x": -24.348802572719492,
-                "y": 0.22981651360761662,
-                "z": -218.6234105118101
-              }
-            },
-            {
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
               "position": {
                 "x": -24.348802572719492,
                 "y": 0.22981651360761662,
@@ -2054,35 +1794,6 @@
           },
           "pinpoints": [
             {
-              "position": {
-                "y": 4.5376740459223255,
-                "x": -18.044622844209893,
-                "z": -219.13657194337944
-              },
-              "info": {
-                "position": {
-                  "x": 340,
-                  "y": 220
-                },
-                "width": 320,
-                "images": {
-                  "imageList": [],
-                  "containerHeight": 100
-                },
-                "description": "",
-                "url": "",
-                "header": "",
-                "height": 255,
-                "_id": "6a8e98f2-e925-446d-bf45-b16d4795e7f5"
-              },
-              "thumbnailUrl": require("../images/thumbnails/hitting_bay_-_2.jpg"),
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "redirectUrl": "",
-              "_id": "023e849f-f61b-4b3c-83a9-964bcb6b665c",
-              "labelName": "Hitting Bay - 2",
-              "toViewId": "f4821786-d554-4bf2-8e3e-7d2ddfe69e7f"
-            },
-            {
               "info": {
                 "position": {
                   "x": 340,
@@ -2141,35 +1852,6 @@
               }
             },
             {
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "toViewId": "a5ab9825-7927-4536-9bda-57499f03f3a9",
-              "info": {
-                "_id": "46c8663c-fc92-48b9-8e0a-4d3eedea6bff",
-                "position": {
-                  "y": 220,
-                  "x": 340
-                },
-                "header": "",
-                "height": 255,
-                "images": {
-                  "containerHeight": 100,
-                  "imageList": []
-                },
-                "description": "",
-                "url": "",
-                "width": 320
-              },
-              "redirectUrl": "",
-              "labelName": "Prime Bay",
-              "_id": "710c3ba3-1eb5-4319-8035-b1c0e653b618",
-              "position": {
-                "x": 106.84680893111539,
-                "z": -192.2038308474982,
-                "y": 2.306809124957062
-              },
-              "thumbnailUrl": require("../images/thumbnails/prime_bay.jpg")
-            },
-            {
               "toViewId": "a5ab9825-7927-4536-9bda-57499f03f3a9",
               "thumbnailUrl": require("../images/thumbnails/prime_bay.jpg"),
               "redirectUrl": "",
@@ -2197,35 +1879,6 @@
                 "height": 255
               },
               "labelName": "Prime Bay"
-            },
-            {
-              "_id": "1aa409e5-fb74-4a04-8401-4131c0bdb2d9",
-              "info": {
-                "_id": "4a2b69e4-26fc-49b4-9a24-6bc4e8966b72",
-                "header": "",
-                "images": {
-                  "containerHeight": 100,
-                  "imageList": []
-                },
-                "position": {
-                  "x": 340,
-                  "y": 220
-                },
-                "description": "",
-                "width": 320,
-                "url": "",
-                "height": 255
-              },
-              "toViewId": "d9b81361-4efe-4fe1-a747-00e42fd71dcc",
-              "thumbnailUrl": require("../images/thumbnails/event_bay.jpg"),
-              "position": {
-                "y": 16.413581343407504,
-                "x": 69.69066666380546,
-                "z": -207.97396299473547
-              },
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "redirectUrl": "",
-              "labelName": "Event Bay"
             },
             {
               "toViewId": "d9b81361-4efe-4fe1-a747-00e42fd71dcc",
@@ -2614,35 +2267,6 @@
               "labelName": "Game Over"
             },
             {
-              "toViewId": "c3ba7d89-00fd-4bab-ad09-cb2b5a5da939",
-              "thumbnailUrl": require("../images/thumbnails/social_room.jpg"),
-              "redirectUrl": "",
-              "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-              "info": {
-                "url": "",
-                "description": "",
-                "width": 320,
-                "_id": "77d8a1db-24c8-48ad-bf9a-269d989fa6e9",
-                "position": {
-                  "y": 220,
-                  "x": 340
-                },
-                "header": "",
-                "height": 255,
-                "images": {
-                  "containerHeight": 100,
-                  "imageList": []
-                }
-              },
-              "_id": "59048635-f5d6-44ca-a29f-e8ef3d38ddad",
-              "position": {
-                "y": 1.6736980435755693,
-                "z": -216.82937075097652,
-                "x": -37.01487984738101
-              },
-              "labelName": "Social Room"
-            },
-            {
               "info": {
                 "images": {
                   "imageList": [],
@@ -2838,17 +2462,18 @@
       "showViewfinder": true,
       "pinpoints": [
         {
+          "_id": "cca70463-2355-4b03-8cc8-ae3cacfdc85e",
+          "labelName": "Default",
           "position": {
             "z": 0,
             "y": 66.39455127164454,
             "x": 61.90475360065973
           },
-          "_id": "cca70463-2355-4b03-8cc8-ae3cacfdc85e",
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
-          "labelName": "Default",
           "thumbnailUrl": "",
           "redirectUrl": "",
-          "toViewId": "8de96441-1f3c-46d5-81f8-63692e394fd7"
+          "toViewId": "8de96441-1f3c-46d5-81f8-63692e394fd7",
+          "info":infoObject,
         },
         {
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
@@ -2861,7 +2486,8 @@
             "x": 72.90475264153594
           },
           "labelName": "Default",
-          "toViewId": "bfffff98-8c2f-4498-b095-e0032413cd22"
+          "toViewId": "bfffff98-8c2f-4498-b095-e0032413cd22",
+          "info":infoObject,
         },
         {
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
@@ -2874,7 +2500,8 @@
           },
           "thumbnailUrl": "",
           "labelName": "Default",
-          "redirectUrl": ""
+          "redirectUrl": "",
+          "info":infoObject,
         },
         {
           "thumbnailUrl": "",
@@ -2887,7 +2514,8 @@
           },
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
           "labelName": "Default",
-          "toViewId": "bf155db8-db48-49d5-8a00-9e1bfa18e592"
+          "toViewId": "bf155db8-db48-49d5-8a00-9e1bfa18e592",
+          "info":infoObject,
         },
         {
           "redirectUrl": "",
@@ -2900,7 +2528,8 @@
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
           "_id": "dbac026e-6a51-4e5b-af90-68899280fa83",
           "toViewId": "0c369557-4dc1-4e07-8a1b-ba256e0820ba",
-          "thumbnailUrl": ""
+          "thumbnailUrl": "",
+          "info":infoObject,
         },
         {
           "thumbnailUrl": "",
@@ -2913,7 +2542,8 @@
             "z": 0,
             "y": 43.68539000270502,
             "x": 61.52378090787346
-          }
+          },
+          "info":infoObject,
         },
         {
           "position": {
@@ -2926,7 +2556,8 @@
           "toViewId": "5db7854f-4896-49d2-a905-7dacb5591a70",
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
           "labelName": "Default",
-          "redirectUrl": ""
+          "redirectUrl": "",
+          "info":infoObject,
         }
       ],
       "_id": "0a5c0ad2-35c3-476b-b1c3-a236affc5998",
@@ -2943,13 +2574,14 @@
           "position": {
             "y": 45.906036851878866,
             "x": 50.38092473659626,
-            "z": 0
+            "z": 0,
           },
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
           "labelName": "Default",
           "_id": "4377917d-82e1-47c2-99d7-3320c0f81c31",
           "thumbnailUrl": "",
-          "toViewId": "f4821786-d554-4bf2-8e3e-7d2ddfe69e7f"
+          "toViewId": "f4821786-d554-4bf2-8e3e-7d2ddfe69e7f",
+          "info":infoObject,
         },
         {
           "toViewId": "57c71c8d-e5a1-4dc7-b544-6165bdd5b4b8",
@@ -2962,7 +2594,8 @@
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
           "redirectUrl": "",
           "_id": "5a55c4bd-ccfe-459a-879b-ce0c077d3ac0",
-          "thumbnailUrl": ""
+          "thumbnailUrl": "",
+          "info":infoObject,
         },
         {
           "_id": "44e0c0a7-75f6-4b7c-8e86-61ac02dc98de",
@@ -2975,7 +2608,8 @@
             "x": 22.380927178002306,
             "y": 30.201339508616222,
             "z": 0
-          }
+          },
+          "info":infoObject,
         },
         {
           "customPinpointId": "728f069e-60af-40dd-a07f-4688a7129816",
@@ -2988,7 +2622,8 @@
             "z": 0,
             "x": 9.761901004298531,
             "y": 35.67567416679436
-          }
+          },
+          "info":infoObject,
         },
         {
           "labelName": "Default",
@@ -3001,7 +2636,8 @@
             "y": 65.47297084967184
           },
           "_id": "edf6a3cb-8a4d-4783-92d9-e367299eb3d9",
-          "thumbnailUrl": ""
+          "thumbnailUrl": "",
+          "info":infoObject,
         }
       ],
       "imageUrl": require("../images/maps/level_2.png"),
@@ -3022,7 +2658,8 @@
           "labelName": "Default",
           "toViewId": "77901ce7-8539-4ac5-b043-a208e32f155f",
           "_id": "35059292-8af6-4f1a-9205-a5aeee471959",
-          "thumbnailUrl": ""
+          "thumbnailUrl": "",
+          "info":infoObject,
         },
         {
           "thumbnailUrl": "",
@@ -3035,7 +2672,8 @@
             "x": 44.380925259754704,
             "y": 49.053385562950865
           },
-          "redirectUrl": ""
+          "redirectUrl": "",
+          "info":infoObject,
         },
         {
           "redirectUrl": "",
@@ -3048,7 +2686,8 @@
             "z": 0,
             "y": 64.48468348476322,
             "x": 33.206333705357146
-          }
+          },
+          "info":infoObject,
         },
         {
           "toViewId": "18909232-6827-48d0-9cc1-478fe9ffb7f8",
@@ -3061,7 +2700,8 @@
             "x": 23.238069960408243,
             "z": 0,
             "y": 43.86504651502392
-          }
+          },
+          "info":infoObject,
         }
       ],
       "_id": "58f5712e-7080-46f1-9bc5-ef878217aabe",

@@ -4,12 +4,12 @@ import { PinpointContext } from "../..";
 
 const TextOverlay = () => {
     const {xDistance, yDistance} = useContext(PinpointContext)
-    const padding = 1
+    const padding = 0.05
     const x = 0
     const y = 0
     const width = xDistance + padding
     const height = yDistance + padding
-    const radius = 0.3
+    const radius = 0.02
     
     const roundedRect = new THREE.Shape();
     

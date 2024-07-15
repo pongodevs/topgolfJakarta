@@ -17,11 +17,9 @@ type PinpointContextType = {
 export const PinpointContext = createContext<PinpointContextType>({} as PinpointContextType)
 
 const Pinpoint = ({pinpoint, index}:{pinpoint:PinpointType, index:number}) => {
-    const {selectedScene, teleport,  currentView,  player} = useContext(VrViewerContext)    
-    const distance = new THREE.Vector3(pinpoint.position.x, pinpoint.position.y, pinpoint.position.z).distanceTo(new THREE.Vector3(0,0,0))
-    const multiplier = 0.04
-    
-    const size = distance * multiplier
+    const {selectedScene, teleport,  currentView,  player} = useContext(VrViewerContext)   
+    const newPos = new THREE.Vector3(pinpoint.position.x, pinpoint.position.y, pinpoint.position.z).normalize()    
+    const size = 0.04
     
     // Text related
     const [bbox, setBbox]= useState(new THREE.Box3())
@@ -45,6 +43,7 @@ const Pinpoint = ({pinpoint, index}:{pinpoint:PinpointType, index:number}) => {
     
     const groupRef = useRef(null as any)
     
+    
     return (  
         <PinpointContext.Provider
             value={{
@@ -62,9 +61,9 @@ const Pinpoint = ({pinpoint, index}:{pinpoint:PinpointType, index:number}) => {
                 {/* Mesh Group */}
                 <group
                     position={[
-                        pinpoint.position.x,
-                        pinpoint.position.y,
-                        pinpoint.position.z - (index * 0.01)
+                        newPos.x,
+                        newPos.y,
+                        newPos.z - (index * 0.01)
                     ]}
                     onUpdate={(self:any) =>{
                         self.lookAt(new THREE.Vector3(0,0,0))
